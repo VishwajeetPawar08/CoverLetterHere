@@ -52,7 +52,7 @@ export default function Home() {
           <Image src="/logo.png" alt="Logo" width={55} height={55} className="rounded-lg shadow-inner border border-[#FF9B51]/30" />
           <div className="flex flex-col">
             <span className="text-[#FF9B51] font-extrabold text-2xl tracking-tight">CLH Gen</span>
-            <span className="text-[#BFC9D1] text-xs">AI Covers</span>
+            <span className="text-[#BFC9D1] text-xs">Human-Like AI Covers</span>
           </div>
         </div>
         <div className="text-[#EAEFEF] text-sm font-medium bg-[#FF9B51]/10 px-4 py-1 rounded-full hidden md:block">
