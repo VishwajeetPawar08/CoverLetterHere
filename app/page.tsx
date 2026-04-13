@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-[#EAEFEF] text-sm font-medium bg-[#FF9B51]/10 px-4 py-1 rounded-full hidden md:block">
-          Powered by Mistral & OpenRouter
+          Openrouter's Power
         </div>
       </nav>
 
@@ -180,10 +180,19 @@ export default function Home() {
       <footer className="p-10 mt-16 shadow-inner" style={{ backgroundColor: '#25343F', color: '#BFC9D1' }}>
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
           <div className="flex items-center gap-3">
-            <Image src="/logo.jpg" alt="Logo" width={40} height={40} className="rounded shadow" />
-            <p className="text-sm">Powered by Mistral AI on OpenRouter.</p>
+            <Image src="/logo.png" alt="Logo" width={40} height={40} className="rounded shadow" />
+            <p className="text-sm">Powered by OpenRouter.</p>
           </div>
-          <p className="text-xs max-w-md">© 2026 CLH Gen. AI generates text based strictly on input. Intentional minor errors are included for a more authentic human feel.</p>
+          <p className="text-xs max-w-md">© 2026 CoverLetterHere Gen. AI generates cover letters strictly based on inputs pasted by the user. Minor errors can be seen.</p>
+          <span className="text-[#BFC9D1]">
+            Contact us:{" "}
+            <a 
+              href="mailto:vpawar6254@gmail.com" 
+              className="text-[#FF9B51] hover:underline transition-all"
+            >
+              Kindly click here for your suggestions.
+            </a>
+          </span>        
         </div>
       </footer>
     </div>
