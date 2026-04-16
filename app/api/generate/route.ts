@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
   try {
-    const { jd, resume } = await req.json();
+    const { jd, resume, instructions } = await req.json();
 
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
@@ -33,7 +33,7 @@ export async function POST(req: Request) {
           },
           { 
             role: "user", 
-            content: `Target Job Description: ${jd}\n\nMy Resume Details: ${resume}` 
+            content: `Target Job Description: ${jd}\n\nMy Resume Details: ${resume}. Follow below instructions strictly ${instructions}` 
           }
         ]
       })
